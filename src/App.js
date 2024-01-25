@@ -88,6 +88,9 @@ export default function App() {
         <FormSplitBill
           selectedFriend={selectedFriend}
           onSplitBill={handleSplitBill}
+          /////////////////////////////////////////////////
+          // Using the Key Prop to Fix Our Eat-'N-Split App
+          key={selectedFriend.id}
         />
       )}
     </div>
